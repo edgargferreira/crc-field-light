@@ -1,0 +1,19 @@
+{
+  "name": "crc_field_lights",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Edgar Ferreira <eferreira@imaginarycloud.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "serve",
+    "watch": "esbuild $(find ./src \\( -name '*.js' -o -name '*.jsx' \\)) --bundle --watch --outdir=dist"
+  },
+  "dependencies": {
+    "esbuild": "^0.20.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29",
+    "serve": "^14.2.1"
+  }
+}

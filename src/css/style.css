@@ -1,0 +1,9 @@
+@import 'main_style.css';
+@import 'field_style.css';
+
+:root {
+  --green-color: #91baa0;
+  --red-color: #be7e7f;
+  --blue-color: #a7c7da;
+  --purple-color: #592851;
+}
