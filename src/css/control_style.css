@@ -1,0 +1,40 @@
+.control_container {
+  border: 1px solid var(--red-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 30px;
+  gap: 50px;
+}
+
+.sub-group {
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed var(--red-color);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.sub-group h3 {
+  color: var(--title-color);
+  margin-bottom: 5px;
+}
+
+.control_container h2 {
+  align-self: center;
+  color: var(--title-color);
+  margin-bottom: 0px;
+}
+
+.button_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.label {
+  font-weight: bold;
+}

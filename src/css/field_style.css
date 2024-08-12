@@ -21,6 +21,21 @@
   border: solid 5px var(--purple-color);
 }
 
+.right_proj_small_checked,
+.left_proj_small_checked {
+  background: var(--blue-color);
+}
+
+.right_proj_big_checked,
+.left_proj_big_checked {
+  background: var(--red-color);
+}
+
+.right_watering_checked,
+.left_watering_checked {
+  background: var(--purple-color);
+}
+
 .outter_container {
   display: flex;
   width: 500px;

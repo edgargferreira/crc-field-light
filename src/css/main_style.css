@@ -3,6 +3,7 @@ body {
   min-height: 100%;
   margin: 0 0 0 0;
   font-family: Arial;
+  overflow: auto;
 }
 
 .app-wrapper {
@@ -11,7 +12,8 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
     'header header header header'
-    'contnt contnt contnt contnt'
+    /* 'contnt contnt contnt contnt' */
+    'contnt contnt contnt aside'
     'footer footer footer footer';
 
   height: 100vh;
@@ -28,7 +30,7 @@ body {
 .header h1 {
   display: flex;
   align-items: center;
-  color: #880808;
+  color: var(--title-color);
 }
 
 .content {
@@ -36,6 +38,14 @@ body {
   grid-area: contnt;
   justify-content: center;
   padding-bottom: 50px;
+}
+
+.aside {
+  display: flex;
+  grid-area: aside;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-right: 40px;
 }
 
 .footer {
